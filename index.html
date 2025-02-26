@@ -23,10 +23,14 @@
             border-radius: 8px;
             margin-top: 20px;
         }
-        img {
-            max-width: 100%;
+        .portada {
+            max-width: 50%;
             height: auto;
             border-radius: 8px;
+        }
+        .Imagen{
+            max-width: 30%;
+            height: auto;  
         }
         .tareas {
             display: grid;
@@ -39,6 +43,32 @@
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0px 0px 5px rgba(241, 196, 15, 0.5);
+        }
+        .tarea img {
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .tareax img {
+            width: 60%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .tareax {
+            background: #2c2c2c;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px rgba(241, 196, 15, 0.5);
+        }
+        .tareax a {
+            display: block;
+            margin-top: 10px;
+            color: #f1c40f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .tareax a:hover {
+            text-decoration: underline;
         }
         .tarea a {
             display: block;
@@ -56,30 +86,37 @@
     <div class="container">
         <h1>Tratamiento Digital de la Imagen</h1>
         <p>En esta página encontrarás mis prácticas realizadas en MATLAB para la asignatura de Tratamiento Digital de la Imagen.</p>
-        <img src="Media/PORTADA2.png" alt="Imagen de portada">
+        <img class="portada" src="Media/PORTADA2.png" alt="Imagen de portada">
         
+        <p>Partiendo de la imagen del alien, se han aplicado diversas técnicas de procesamiento digital de imágenes, como transformaciones de intensidad, filtrado en el dominio de la frecuencia, segmentación y procesamiento morfológico, para mejorar su calidad, resaltar características y analizar su estructura.</p>
+        <img class="Imagen" src="Media/G11.jpg" alt="Imagen de alien">
         <div class="tareas">
             <div class="tarea">
                 <h3>Tarea 1</h3>
-                <img src="tarea1.jpg" alt="Tarea 1">
+                <p>Transformaciones de intensidad y filtrado espacial</p>
+                <img src="Media/Tarea1.jpeg" alt="Tarea 1">
                 <a href="https://github.com/dperezg2021/Tratamiendo-Digital-de-la-Imagen/tree/main/Tarea%201" target="_blank">Ver en GitHub</a>
             </div>
-            <div class="tarea">
+            <div class="tareax">
                 <h3>Tarea 2</h3>
-                <img src="tarea2.jpg" alt="Tarea 2">
+                <p>Filtrado en el dominio de la frecuencia</p>
+                <img src="Media/Tarea2.jpeg" alt="Tarea 2">
                 <a href="https://github.com/dperezg2021/Tratamiendo-Digital-de-la-Imagen/tree/main/Tarea%202" target="_blank">Ver en GitHub</a>
             </div>
             <div class="tarea">
                 <h3>Tarea 3</h3>
-                <img src="tarea3.jpg" alt="Tarea 3">
+                <p>Segmentación de Imagen</p>
+                <img src="Media/Tarea3.jpeg" alt="Tarea 3">
                 <a href="https://github.com/dperezg2021/Tratamiendo-Digital-de-la-Imagen/tree/main/Tarea%203" target="_blank">Ver en GitHub</a>
             </div>
             <div class="tarea">
                 <h3>Tarea 4</h3>
-                <img src="tarea4.jpg" alt="Tarea 4">
+                <p>Procesamiento morfológico</p>
+                <img src="Media/Tarea4.jpeg" alt="Tarea 4">
                 <a href="https://github.com/dperezg2021/Tratamiendo-Digital-de-la-Imagen/tree/main/Tarea%204" target="_blank">Ver en GitHub</a>
             </div>
         </div>
     </div>
 </body>
 </html>
+
